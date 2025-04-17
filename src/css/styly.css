@@ -1,1 +1,134 @@
  
+.header-vinheria {
+    background-color: #ffffff;
+    box-shadow: 0 3px 20px rgba(90, 10, 29, 0.08);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 0.8rem 0;
+    border-bottom: 1px solid #f0e6e9;
+}
+
+
+.nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.vinheria-logo {
+    font: 700 1.8rem 'Playfair Display', serif;
+    color: #5a0a1d;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    transition: transform 0.3s;
+}
+
+.vinheria-logo:hover {
+    transform: scale(1.02);
+}
+
+.uvas-icon {
+    color: #7a0d28;
+    font-size: 1.8rem;
+}
+
+
+.nav-principal ul {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+
+.nav-link {
+    font: 500 1.1rem 'Crimson Text', serif;
+    color: #5a0a1d;
+    text-decoration: none;
+    padding: 0.5rem 0;
+    position: relative;
+    transition: color 0.3s;
+}
+
+
+.nav-link:hover {
+    color: #7a0d28;
+}
+
+.nav-link::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #7a0d28;
+    transition: width 0.3s ease-out;
+}
+
+.nav-link:hover::before {
+    width: 100%;
+}
+
+
+.btn-vinho {
+    background: #5a0a1d;
+    color: white !important;
+    padding: 0.6rem 1.5rem !important;
+    border-radius: 30px;
+    transition: all 0.3s;
+    margin-left: 1rem;
+}
+
+.btn-vinho:hover {
+    background: #7a0d28;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(122, 13, 40, 0.2);
+}
+
+.btn-vinho::before {
+    display: none; 
+}
+
+
+.menu-mobile {
+    display: none;
+    cursor: pointer;
+    font-size: 1.8rem;
+    color: #5a0a1d;
+}
+
+
+@media (max-width: 768px) {
+    .nav-principal {
+        position: fixed;
+        top: 70px;
+        left: -100%;
+        width: 80%;
+        height: calc(100vh - 70px);
+        background: white;
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem 0;
+        box-shadow: 2px 0 10px rgba(90, 10, 29, 0.1);
+        transition: left 0.3s;
+    }
+
+    .nav-principal.active {
+        left: 0;
+    }
+
+    .nav-principal ul {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .menu-mobile {
+        display: block;
+    }
+}
