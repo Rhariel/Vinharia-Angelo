@@ -208,34 +208,53 @@ body {
   .wine{
     display: flex;
     justify-content: space-between;
-    gap: 20px;
+    gap: 10px;
     margin: 30px 0;
     padding: 0px 60px;
     align-items: center;
   }
 
+  .wine h2{
+    font-size: 17px;
+  }
+
   .wine p{
-    font-size:20px;
+    font-size:15px;
+    margin-top: 20px;
+    margin-bottom: -10px;
+    text-align: center;
+  }
+
+  .wine h4{
+    margin-top: -10px;
   }
   
   .img-control1 {
     width: 100%;
-    max-width: 260px;
+    max-width: 245px;
     height: auto;
     object-fit: cover;
   }
 
   .img-control2 {
     width: 100%;
-    max-width: 120px;
+    max-width: 100px;
     height: auto;
-    margin-left: 90px;
   }
 
   .img-control3 {
     width: 100%;
-    max-width: 175px;
+    max-width: 170px;
     height: auto;
     object-fit: cover;
+  }
+
+  .card-vinho{
+    border: 2px solid #E1E1E1;
+    align-items: center;
+    border-radius: 20px;
+    padding: 25px;
+    text-align: center;
+    height: 420px;
   }
   
