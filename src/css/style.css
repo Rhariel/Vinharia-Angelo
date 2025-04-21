@@ -347,3 +347,18 @@ footer {
     display: block;
   }
 }
+#form {
+  width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #e6cece;
+  border-radius: 10px;
+  text-align: center;
+}
+.ceo{
+  width: 400px;
+  margin-right: 500px;
+  padding: 10px;
+  text-align: center;
+  color: #ffffff;
+}
