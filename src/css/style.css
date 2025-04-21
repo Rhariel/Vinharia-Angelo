@@ -12,6 +12,7 @@ body {
   color: #333;
 }
 
+<<<<<<< HEAD
 body h1, h2, h3{
   font-family: 'perosnafont', sans-serif;
   font-size: 2.5rem;
@@ -322,12 +323,21 @@ footer {
     height: calc(100vh - 70px);
     background: rgb(78, 1, 1);
     flex-direction: column;
+=======
+  .wine{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 30px 0;
+    padding: 0px 60px;
+>>>>>>> 60a06e1 (Bernardo)
     align-items: center;
     padding: 2rem 0;
     box-shadow: 2px 0 10px rgba(90, 10, 29, 0.1);
     transition: left 0.3s;
   }
 
+<<<<<<< HEAD
   .nav-principal.active {
     left: 0;
   }
@@ -356,3 +366,49 @@ footer {
   text-align: center;
   color: #ffffff;
 }
+=======
+  .wine h2{
+    font-size: 17px;
+  }
+
+  .wine p{
+    font-size:15px;
+    margin-top: 20px;
+    margin-bottom: -10px;
+    text-align: center;
+  }
+
+  .wine h4{
+    margin-top: -10px;
+  }
+  
+  .img-control1 {
+    width: 100%;
+    max-width: 245px;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .img-control2 {
+    width: 100%;
+    max-width: 100px;
+    height: auto;
+  }
+
+  .img-control3 {
+    width: 100%;
+    max-width: 170px;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .card-vinho{
+    border: 2px solid #E1E1E1;
+    align-items: center;
+    border-radius: 20px;
+    padding: 25px;
+    text-align: center;
+    height: 420px;
+  }
+  
+>>>>>>> 60a06e1 (Bernardo)
