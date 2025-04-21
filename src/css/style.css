@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "fontesite" ;
+  src: url(/src/assets/fonts/birds_of_paradise/Birds\ of\ Paradise\ ©\ PERSONAL\ USE\ ONLY.ttf);
+}
+
 /* ========== */
 body {
   font-family: 'Segoe UI', sans-serif;
@@ -15,10 +20,15 @@ body {
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-hr {
-  margin: 40px 0;
-  border: none;
-  border-top: 1px solid #ccc;
+footer {
+  background: #2c2c2c;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 main {
@@ -165,6 +175,13 @@ main {
   margin: 0 auto;
 }
 
+
+h1, h2, h3 {
+  font-family: 'fontesite', sans-serif;
+  color: #540000;
+  margin-bottom: 20px;
+}
+
 h1 {
   text-align: center;
   color: #d38080;
@@ -181,6 +198,11 @@ p {
   text-align: justify;
   line-height: 1.6;
   margin-bottom: 20px;
+}
+
+#slogan {
+  font-family:'fontesite', sans-serif ;
+  line-height: 1.6;
 }
 
 /* ========== */
