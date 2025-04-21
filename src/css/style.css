@@ -140,7 +140,7 @@ main {
 
 /* ===== HERO SECTION ===== */
 .hero {
-  background: url('#') no-repeat center center;
+  background: url('/src/assets/img/index_img/banner') no-repeat center center;
   background-size: cover;
   color: rgb(65, 4, 4);
   padding: 120px 20px;
