@@ -1,134 +1,160 @@
- 
-.header-vinheria {
-    background-color: #441919;
-    box-shadow: 0 3px 20px rgba(90, 10, 29, 0.08);
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    padding: 0.8rem 0;
-    border-bottom: 1px solid #f0e6e9;
+@font-face {
+  font-family: "fontesite" ;
+  src: url(/src/assets/fonts/birds_of_paradise/Birds\ of\ Paradise\ ©\ PERSONAL\ USE\ ONLY.ttf);
 }
 
-
-.nav-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 2rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+/* ========== */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  color: #333;
 }
 
-
-.vinheria-logo {
-    font: 700 1.8rem 'Playfair Display', serif;
-    color: #f5eaec;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    gap: 0.6rem;
-    transition: transform 0.3s;
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 40px 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-.vinheria-logo:hover {
-    transform: scale(1.02);
-}
-
-.uvas-icon {
-    color: #e2b7c2;
-    font-size: 1.8rem;
-}
-
-
-.nav-principal ul {
-    display: flex;
-    gap: 2rem;
-    list-style: none;
-}
-
-.nav-link {
-    font: 500 1.1rem 'Crimson Text', serif;
-    color: #e7c8cf;
-    text-decoration: none;
-    padding: 0.5rem 0;
-    position: relative;
-    transition: color 0.3s;
-}
-
-
-.nav-link:hover {
-    color: #7a0d28;
-}
-
-.nav-link::before {
-    content: '';
-    position: absolute;
-    width: 0;
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: #7a0d28;
-    transition: width 0.3s ease-out;
-}
-
-.nav-link:hover::before {
-    width: 100%;
-}
-
-
-.btn-vinho {
-    background: #5a0a1d;
-    color: white !important;
-    padding: 0.6rem 1.5rem !important;
-    border-radius: 30px;
-    transition: all 0.3s;
-    margin-left: 1rem;
-}
-
-.btn-vinho:hover {
-    background: #7a0d28;
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(122, 13, 40, 0.2);
-}
-
-.btn-vinho::before {
-    display: none; 
-}
-
-
-@media (max-width: 768px) {
-    .nav-principal {
-        position: fixed;
-        top: 70px;
-        left: -100%;
-        width: 80%;
-        height: calc(100vh - 70px);
-        background: rgb(78, 1, 1);
-        flex-direction: column;
-        align-items: center;
-        padding: 2rem 0;
-        box-shadow: 2px 0 10px rgba(90, 10, 29, 0.1);
-        transition: left 0.3s;
-    }
-
-    .nav-principal.active {
-        left: 0;
-    }
-
-    .nav-principal ul {
-        flex-direction: column;
-        gap: 1.5rem;
-    }
-
-    .menu-mobile {
-        display: block;
-    }
+footer {
+  background: #2c2c2c;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 main {
-    margin-top: 20px; /* Adjust this value based on your header height */
-    padding: 2rem;
-    background-color: #ebe9e9;
+  margin-top: 20px;
+  padding: 2rem;
+  background-color: #ebe9e9;
+}
+
+/* ========== */
+.header-vinheria {
+  background-color: #441919;
+  box-shadow: 0 3px 20px rgba(90, 10, 29, 0.08);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  padding: 0.8rem 0;
+  border-bottom: 1px solid #f0e6e9;
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.vinheria-logo {
+  font: 700 1.8rem 'Playfair Display', serif;
+  color: #f5eaec;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  transition: transform 0.3s;
+}
+
+.vinheria-logo:hover {
+  transform: scale(1.02);
+}
+
+.uvas-icon {
+  color: #e2b7c2;
+  font-size: 1.8rem;
+}
+
+.nav-principal ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+.nav-link {
+  font: 500 1.1rem 'Crimson Text', serif;
+  color: #e7c8cf;
+  text-decoration: none;
+  padding: 0.5rem 0;
+  position: relative;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #7a0d28;
+}
+
+.nav-link::before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #7a0d28;
+  transition: width 0.3s ease-out;
+}
+
+.nav-link:hover::before {
+  width: 100%;
+}
+
+/*=======*/
+.btn-vinho {
+  background: #5a0a1d;
+  color: white !important;
+  padding: 0.6rem 1.5rem !important;
+  border-radius: 30px;
+  transition: all 0.3s;
+  margin-left: 1rem;
+}
+
+.btn-vinho:hover {
+  background: #7a0d28;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(122, 13, 40, 0.2);
+}
+
+.btn-vinho::before {
+  display: none; 
+}
+
+.nav-link.btn-nav {
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  background-color: #6a1b1a;
+  color: white;
+  transition: background 0.3s;
+}
+
+.nav-link.btn-nav:hover {
+  background-color: #912e2e;
+}
+
+.nav-link.btn-destaque {
+  background-color: #b71c1c;
+  font-weight: bold;
+}
+
+/* ===== */
+.hero {
+  background: url('/src/assets/img/index_img/banner') no-repeat center center;
+  background-size: cover;
+  color: rgb(192, 123, 123);
+  padding: 120px 20px;
+  text-align: center;
 }
 
 body {
@@ -208,53 +234,34 @@ body {
   .wine{
     display: flex;
     justify-content: space-between;
-    gap: 10px;
+    gap: 20px;
     margin: 30px 0;
     padding: 0px 60px;
     align-items: center;
   }
 
-  .wine h2{
-    font-size: 17px;
-  }
-
   .wine p{
-    font-size:15px;
-    margin-top: 20px;
-    margin-bottom: -10px;
-    text-align: center;
-  }
-
-  .wine h4{
-    margin-top: -10px;
+    font-size:20px;
   }
   
   .img-control1 {
     width: 100%;
-    max-width: 245px;
+    max-width: 260px;
     height: auto;
     object-fit: cover;
   }
 
   .img-control2 {
     width: 100%;
-    max-width: 100px;
+    max-width: 120px;
     height: auto;
+    margin-left: 90px;
   }
 
   .img-control3 {
     width: 100%;
-    max-width: 170px;
+    max-width: 175px;
     height: auto;
     object-fit: cover;
-  }
-
-  .card-vinho{
-    border: 2px solid #E1E1E1;
-    align-items: center;
-    border-radius: 20px;
-    padding: 25px;
-    text-align: center;
-    height: 420px;
   }
   
