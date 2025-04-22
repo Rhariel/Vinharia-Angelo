@@ -272,6 +272,10 @@ p {
   object-fit: cover;
 }
 
+.card-vinho:hover {
+  background-color: #cecece;
+}
+
 .info-vinho {
   padding: 20px;
 }
