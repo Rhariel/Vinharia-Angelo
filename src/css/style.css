@@ -366,3 +366,8 @@ footer {
   text-align: center;
   color: #ffffff;
 }
+
+#imagem_pag1{
+  display: block;
+  margin: 0 auto;
+}
