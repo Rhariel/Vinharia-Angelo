@@ -150,7 +150,7 @@ main {
 
 /* ===== */
 .hero {
-  background: url('src/assets/img/index_img/banner') no-repeat center center;
+  background: url('/src/assets/img/index_img/banner') no-repeat center center;
   background-size: cover;
   color: rgb(192, 123, 123);
   padding: 120px 20px;
