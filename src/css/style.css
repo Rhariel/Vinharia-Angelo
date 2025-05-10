@@ -63,7 +63,7 @@ footer {
 
 .card-vinho:hover {
   transition: all 0.5s ease;
-  transform: scale(1.1) translateX(15px);
+  transform: scale(1.1) translateX(10px);
   background-color: #ccc;
 }
 /* Tabela de vinhos e preços */
