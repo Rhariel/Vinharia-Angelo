@@ -1,7 +1,15 @@
 /* Importando os efeitos.css */
 @import url('efeitos.css');
 
+/*Global*/
+a {
+  text-decoration: none;
+}
 
+img {
+  border-radius: 10px;
+  background-color: #fff;
+}
 /* === BOX MODEL === */
 body {
   margin: 0;
@@ -29,9 +37,18 @@ body {
 }
 
 .nav-link {
+  display: inline-block;
   padding: 0.5rem 1rem;
   margin: 0 0.5rem;
   color: #e7c8cf;
+}
+
+.nav-link:hover {
+  transition: all 0.5s ease;
+  transform: scale(1.02) translateX(10px);
+  background-color: #572d2d;
+  color: rgb(255, 227, 223);
+  text-decoration: none;
 }
 
 main {
@@ -53,6 +70,7 @@ footer {
   margin: 1rem 0;
   border: 1px solid #ddd;
   background-color: #f9f9f9;
+  border-radius: 8px;
 }
 
 .card-vinho img {
@@ -63,9 +81,16 @@ footer {
 
 .card-vinho:hover {
   transition: all 0.5s ease;
-  transform: scale(1.1) translateX(10px);
+  transform: scale(1.02) translateX(10px);
   background-color: #ccc;
-}
+  border:#a5a3a3 1px solid;
+  text-decoration: none;
+  }
+
+  .card-vinho {
+    transition: all 0.5s ease;
+  }
+
 /* Tabela de vinhos e preços */
 .tbpreco{
  width: 50%;
@@ -90,13 +115,13 @@ footer {
 .gallery {
   padding: 1rem 0;
   margin: 2rem 0;
-  display: flex;
+  display:inline;
   justify-content: space-between;
 }
 
 .gallery img {
   width: 32%;
-  height: auto;
+  height: flex;
   border: 1px solid #ddd;
 }
 
@@ -156,4 +181,7 @@ footer {
   margin: 1rem 0;
   padding: 0;
   color: #5a0a1d;
+}
+footer {
+  text-align: center;
 }
