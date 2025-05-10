@@ -56,9 +56,26 @@ footer {
   height: 200px;
   object-fit: cover;
 }
+/* Tabela de vinhos e preços */
 .tbpreco{
  width: 50%;
 }
+/* Animação no texto nos titulos */
+.txtAnimado {
+  opacity: 0;
+  transform: translateY(20px);
+  /* ease-out começa rápido e termina devagar e forwards mantém o estado final qnd termina */
+  animation: Subir 1s ease-out forwards;  
+}
+
+@keyframes Subir {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
 
 /* Formulário (página 4) */
 #form {
