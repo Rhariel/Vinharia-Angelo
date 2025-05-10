@@ -24,3 +24,16 @@
   border: 2px solid #800000;
   outline: none;
 }
+/*Se o email digitado nao for valido, cria uma cor de fundo indicativa*/
+input[type=email]:invalid {
+  background: rgb(221, 173, 84);
+}
+/* Adicionar uma cor nos botoes do formulario. */
+form button:hover {
+  background-color: #800000;
+  color: white;
+}
+.ceo img:hover {
+  transform: scale(1.1); /* Aumento de tamanho para a img */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Adicionando um pouco de sombra */
+}
