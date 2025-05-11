@@ -37,3 +37,8 @@ form button:hover {
   transform: scale(1.1); /* Aumento de tamanho para a img */
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Adicionando um pouco de sombra */
 }
+
+.gallery img:hover{
+  transform: translate(10px, 10px);
+  transform: skew(1deg, 1deg);
+}
