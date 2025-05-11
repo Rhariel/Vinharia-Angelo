@@ -42,3 +42,8 @@ form button:hover {
   transform: translate(10px, 10px);
   transform: skew(1deg, 1deg);
 }
+
+.card-vinho h3::first-letter{
+  color: #800000;
+  font-size: 20px;
+}	
