@@ -47,3 +47,9 @@ form button:hover {
   color: #800000;
   font-size: 20px;
 }	
+.card-vinho h3::after {
+  content: " 🍷";
+  color: #800000;
+  margin-left: 5px;
+  font-size: 16px;
+}
