@@ -51,6 +51,10 @@ body {
   text-decoration: none;
 }
 
+.hero-content {
+  background-image: url(/src/assets/img/index_img/banner.jpg);
+}
+
 main {
   padding: 2rem;
   margin: 1rem auto;
@@ -165,7 +169,8 @@ footer {
 .hero-content {
   padding: 3rem 1rem;
   margin: 0 auto;
-  color: #5a0a1d;
+  color: #c795a1;
+  text-align: center;
 }
 
 #imagem_pag1 {
@@ -180,7 +185,7 @@ footer {
 #slogan {
   margin: 1rem 0;
   padding: 0;
-  color: #5a0a1d;
+  color: #d497a5;
 }
 footer {
   text-align: center;
