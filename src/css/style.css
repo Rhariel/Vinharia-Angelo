@@ -52,7 +52,7 @@ body {
 }
 
 .hero-content {
-  background-image: url(/src/assets/img/index_img/banner.jpg);
+  background-image: url(../../src/assets/img/index_img/banner.jpg);
 }
 
 main {
