@@ -1,11 +1,11 @@
 Vinheria Agnelo
 
 A vinheria agnello:
-como  passar o tempo e a modernização do atedimento, a vinheria agnelo precisou se modernizar, este site foi projetado para que a vinheira entre nomercado de vendas remotas.
+como  passar o tempo e a modernização do atendimento, a vinheria agnelo precisou se modernizar, este site foi projetado para que a vinheria entre no mercado de vendas remotas.
 
 paginas:
 index:Primeira pagina com vinhos mais comuns de serem vendidos e uma mensagem de bem vindo
-pag1:pagina contando um pouco da historina da vinheira
+pag1:pagina contando um pouco da história da vinheria
 pag3:pagina principal de produtos
 pag4:pagina para contato
 
